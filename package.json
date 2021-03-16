@@ -1,7 +1,7 @@
 {
   "name": "@PlateSwap/plate-swap-core-v2",
   "description": "🎛 Core contracts for the plate protocol",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://plateswap.finance",
   "repository": {
     "type": "git",

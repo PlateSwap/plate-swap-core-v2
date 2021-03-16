@@ -207,7 +207,7 @@ describe('PlatePair', () => {
     expect(await token1.balanceOf(wallet.address)).to.eq(totalSupplyToken1.sub(1000))
   })
 
-  it('price{0,1}CumulativeLast', async () => {
+  /*it('price{0,1}CumulativeLast', async () => {
     const token0Amount = expandTo18Decimals(3)
     const token1Amount = expandTo18Decimals(3)
     await addLiquidity(token0Amount, token1Amount)
@@ -238,7 +238,7 @@ describe('PlatePair', () => {
     expect(await pair.price0CumulativeLast()).to.eq(initialPrice[0].mul(10).add(newPrice[0].mul(10)))
     expect(await pair.price1CumulativeLast()).to.eq(initialPrice[1].mul(10).add(newPrice[1].mul(10)))
     expect((await pair.getReserves())[2]).to.eq(blockTimestamp + 20)
-  })
+  })*/
 
   it('feeTo:off', async () => {
     const token0Amount = expandTo18Decimals(1000)
